@@ -1,4 +1,4 @@
-from dynamic_network_architectures.architectures.unet import PlainConvUNet, ResidualEncoderUNet
+from dynamic_network_architectures.architectures.unet1 import PlainConvUNet, ResidualEncoderUNet,UNetrasformer3D
 from dynamic_network_architectures.building_blocks.helper import get_matching_instancenorm, convert_dim_to_conv_op
 from dynamic_network_architectures.initialization.weight_init import init_last_bn_before_add_to_0
 from nnunetv2.utilities.network_initialization import InitWeights_He
@@ -27,7 +27,8 @@ def get_network_from_plans(plans_manager: PlansManager,
     segmentation_network_class_name = configuration_manager.UNet_class_name
     mapping = {
         'PlainConvUNet': PlainConvUNet,
-        'ResidualEncoderUNet': ResidualEncoderUNet
+        'ResidualEncoderUNet': ResidualEncoderUNet,
+        'UNetrasformer3D': UNetrasformer3D
     }
     kwargs = {
         'PlainConvUNet': {
@@ -42,6 +43,15 @@ def get_network_from_plans(plans_manager: PlansManager,
             'norm_op': get_matching_instancenorm(conv_op),
             'norm_op_kwargs': {'eps': 1e-5, 'affine': True},
             'dropout_op': None, 'dropout_op_kwargs': None,
+            'nonlin': nn.LeakyReLU, 'nonlin_kwargs': {'inplace': True},
+        },
+        'UNetrasformer3D': {
+            "n_transformer_stages":1,
+            'conv_bias': True,
+            'norm_op': get_matching_instancenorm(conv_op),
+            'norm_op_kwargs': {'eps': 1e-5, 'affine': True},
+            'dropout_op': None, 'dropout_op_kwargs': None,
+            #'dropout_op': nn.Dropout3d, 'dropout_op_kwargs': {'p': 0.1, 'inplace': True},
             'nonlin': nn.LeakyReLU, 'nonlin_kwargs': {'inplace': True},
         }
     }
@@ -59,19 +69,20 @@ def get_network_from_plans(plans_manager: PlansManager,
     }
     # network class name!!
     model = network_class(
-        input_channels=num_input_channels,
-        n_stages=num_stages,
-        features_per_stage=[min(configuration_manager.UNet_base_num_features * 2 ** i,
+          input_channels=num_input_channels,
+          n_stages=num_stages,
+          features_per_stage=[min(configuration_manager.UNet_base_num_features * 2 ** i,
                                 configuration_manager.unet_max_num_features) for i in range(num_stages)],
-        conv_op=conv_op,
-        kernel_sizes=configuration_manager.conv_kernel_sizes,
-        strides=configuration_manager.pool_op_kernel_sizes,
-        num_classes=label_manager.num_segmentation_heads,
-        deep_supervision=deep_supervision,
-        **conv_or_blocks_per_stage,
-        **kwargs[segmentation_network_class_name]
+          conv_op=conv_op,
+          kernel_sizes=configuration_manager.conv_kernel_sizes,
+          strides=configuration_manager.pool_op_kernel_sizes,
+          num_classes=label_manager.num_segmentation_heads,
+          deep_supervision=deep_supervision,
+          **conv_or_blocks_per_stage,
+          **kwargs[segmentation_network_class_name]
     )
     model.apply(InitWeights_He(1e-2))
     if network_class == ResidualEncoderUNet:
         model.apply(init_last_bn_before_add_to_0)
     return model
+
