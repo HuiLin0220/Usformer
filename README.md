@@ -12,3 +12,6 @@ Please cite the [following paper](https://www.google.com/url?q=https://www.natur
 - [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'.
 - [Edit nnU-Net](documentation/extending_nnunet.md)
 
+##Oversampling
+-oversample_foreground_percent of patches must contain LA
+-num_iterations_per_epoch * batch_size * oversample_foreground_percent patches must contain LA
