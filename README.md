@@ -1,5 +1,5 @@
 # nnUNet_transformer
-
+A new architecture 'UNetrasformer3D' based on nnU-Net framework for LA segmentation
 
 Please cite the [following paper](https://www.google.com/url?q=https://www.nature.com/articles/s41592-020-01008-z&sa=D&source=docs&ust=1677235958581755&usg=AOvVaw3dWL0SrITLhCJUBiNIHCQO) when using nnU-Net:
 
@@ -7,8 +7,8 @@ Please cite the [following paper](https://www.google.com/url?q=https://www.natur
     method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
 
 ## Instructions
-- Follow https://github.com/MIC-DKFZ/nnUNet to install nnU-Net
-- [UNetrasformer3D](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture 'UNetrasformer3D' is created
-- [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'
+- Follow https://github.com/MIC-DKFZ/nnUNet to install nnU-Net.
+- [UNetrasformer3D](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture 'UNetrasformer3D' is created here.
+- [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'.
 - [Edit nnU-Net](documentation/extending_nnunet.md)
 
