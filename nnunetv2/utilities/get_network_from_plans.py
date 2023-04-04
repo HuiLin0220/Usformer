@@ -1,6 +1,6 @@
-from dynamic_network_architectures.architectures.unet import PlainConvUNet, ResidualEncoderUNet,UNetrasformer3D
-from dynamic_network_architectures.building_blocks.helper import get_matching_instancenorm, convert_dim_to_conv_op
-from dynamic_network_architectures.initialization.weight_init import init_last_bn_before_add_to_0
+from nnunetv2.dynamic_network_architectures.architectures.unet import PlainConvUNet, ResidualEncoderUNet,UNetrasformer3D
+from nnunetv2.dynamic_network_architectures.building_blocks.helper import get_matching_instancenorm, convert_dim_to_conv_op
+from nnunetv2.dynamic_network_architectures.initialization.weight_init import init_last_bn_before_add_to_0
 from nnunetv2.utilities.network_initialization import InitWeights_He
 from nnunetv2.utilities.plans_handling.plans_handler import ConfigurationManager, PlansManager
 from torch import nn
