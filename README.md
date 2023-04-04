@@ -8,7 +8,7 @@ Please cite the [following paper](https://www.google.com/url?q=https://www.natur
 
 ## Instructions
 - Follow https://github.com/MIC-DKFZ/nnUNet to install nnU-Net
-- [UNetrasformer3D](nnUNet_transformer/nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture 'UNetrasformer3D' is created
+- [UNetrasformer3D](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture 'UNetrasformer3D' is created
 - [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'
 - [Edit nnU-Net](documentation/extending_nnunet.md)
 
