@@ -62,8 +62,8 @@ install the latest version with support for your hardware (cuda, mps, cpu).
     2) For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you
    can modify it as needed):
           ```bash
-          git clone https://github.com/MIC-DKFZ/nnUNet.git
-          cd nnUNet
+          git clone git clone https://github.com/HuiLin0220/nnUNet_transformer.git
+          cd nnUNet_transformer
           pip install -e .
           ```
 3) nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to
