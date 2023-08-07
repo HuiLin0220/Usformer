@@ -1,5 +1,5 @@
 # Usformer
-A new architecture, Usformer, based on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework for LA segmentation
+A new architecture, Usformer, based on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework for LA segmentation.
 
 Please cite the following papers when using Usformer:
 
