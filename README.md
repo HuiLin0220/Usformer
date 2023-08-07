@@ -21,10 +21,12 @@ Please cite the following papers when using Usformer:
         }
 
 ## Instructions
-- [Installation instructions] Refer to nnU-Net's [Installation instructions](documentation/installation_instructions.md).
-  git clone git clone https://github.com/HuiLin0220/Usformer.git
-  cd nnUNet_transformer
-  pip install -e .
+- [Installation instructions]
+      Refer to nnU-Net's [Installation instructions](documentation/installation_instructions.md).  
+
+      git clone git clone https://github.com/HuiLin0220/Usformer.git
+      cd Usformer
+      pip install -e.
 - [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture 'UNetrasformer3D' is created here.
 - [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'.
 - [Edit nnU-Net](documentation/extending_nnunet.md)
