@@ -21,7 +21,7 @@ Please cite the following papers when using Usformer:
         }
 
 ## Instructions
-- [Installation instructions] Refer(documentation/installation_instructions.md) to install nnU-Net.
+- [Installation instructions] Refer to nnU-Net's [Installation instructions](documentation/installation_instructions.md).
   git clone git clone https://github.com/HuiLin0220/Usformer.git
   cd nnUNet_transformer
   pip install -e .
