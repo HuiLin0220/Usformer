@@ -29,7 +29,8 @@ Please cite the following papers when using Usformer:
       pip install -e.
 - [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture, Usformer, is created here.
 - [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'.
-- [Edit nnU-Net](documentation/extending_nnunet.md)
+- [Edit Usformer](documentation/extending_nnunet.md)
+  [Image normalization](documentation/explanation_normalization.md)
 
 ## Oversampling
 -oversample_foreground_percent of patches must contain LA
