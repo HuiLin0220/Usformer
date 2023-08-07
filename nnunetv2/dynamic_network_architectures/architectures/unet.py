@@ -123,7 +123,7 @@ class ResidualEncoderUNet(nn.Module):
         return self.encoder.compute_conv_feature_map_size(input_size) + self.decoder.compute_conv_feature_map_size(input_size)
 
 
-class UNetrasformer3D(nn.Module):
+class Usformer(nn.Module):
     def __init__(self,
                  input_channels: int,
                  n_stages: int,
