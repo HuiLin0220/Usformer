@@ -4,10 +4,20 @@ A new architecture, Usformer, based on the [nnU-Net](https://github.com/MIC-DKFZ
 Please cite the following papers when using Usformer:
 
     [1] Hui Lin, Santiago Lopez Tapia, Florian Schiffers, Yunan Wu, Huili Yang, Nikolay Iakovlev, Bradley D. Allen, Ryan Avery, Daniel C. Lee, Daniel Kim, Aggelos K. Katsaggelos. 
-    Usformer: A Light Neural Network for Left Atrium Segmentation of 3D LGE MRI. EUSIPCO, 2023.  
+    Usformer: A Light Neural Network for Left Atrium Segmentation of 3D LGE MRI. EUSIPCO, 2023.  (waiting to be online)
     
     [2] Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). 
-    nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 18(2), 203-211.
+    nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 18(2), 203-211.  
+        @article{isensee2021nnu,
+          title={nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation},
+          author={Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H},
+          journal={Nature methods},
+          volume={18},
+          number={2},
+          pages={203--211},
+          year={2021},
+          publisher={Nature Publishing Group US New York}
+        }
 
 ## Instructions
 - [Installation instructions](documentation/installation_instructions.md) to install nnU-Net.
