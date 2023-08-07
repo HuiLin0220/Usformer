@@ -30,8 +30,7 @@ Please cite the following papers when using Usformer:
 - [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture, Usformer, is created here.
 - [Architecture hyperparameters](nnunetv2/utilities/get_network_from_plans.py) Edit architecture hyperparameters in Function 'get_network_from_plans'.
 - [Edit Usformer]  
-      Refer to nnU-Net's [Extending nnU-Net] (documentation/extending_nnunet.md)
-  
+      Refer to nnU-Net's [Extending nnU-Net](documentation/extending_nnunet.md)
       [Image normalization](documentation/explanation_normalization.md)
 
 ## Oversampling
