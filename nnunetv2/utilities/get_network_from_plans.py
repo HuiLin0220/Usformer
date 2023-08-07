@@ -1,4 +1,4 @@
-from nnunetv2.dynamic_network_architectures.architectures.unet import PlainConvUNet, ResidualEncoderUNet,UNetrasformer3D
+from nnunetv2.dynamic_network_architectures.architectures.unet import PlainConvUNet, ResidualEncoderUNet,Usformer
 from nnunetv2.dynamic_network_architectures.building_blocks.helper import get_matching_instancenorm, convert_dim_to_conv_op
 from nnunetv2.dynamic_network_architectures.initialization.weight_init import init_last_bn_before_add_to_0
 from nnunetv2.utilities.network_initialization import InitWeights_He
@@ -28,7 +28,7 @@ def get_network_from_plans(plans_manager: PlansManager,
     mapping = {
         'PlainConvUNet': PlainConvUNet,
         'ResidualEncoderUNet': ResidualEncoderUNet,
-        'UNetrasformer3D': UNetrasformer3D
+        'Usformer': Usformer
     }
     kwargs = {
         'PlainConvUNet': {
@@ -45,7 +45,7 @@ def get_network_from_plans(plans_manager: PlansManager,
             'dropout_op': None, 'dropout_op_kwargs': None,
             'nonlin': nn.LeakyReLU, 'nonlin_kwargs': {'inplace': True},
         },
-        'UNetrasformer3D': {
+        'Usformer': {
             "n_transformer_stages":1,
             'conv_bias': True,
             'norm_op': get_matching_instancenorm(conv_op),
