@@ -38,5 +38,9 @@ Please cite the following papers when using Usformer:
 -num_iterations_per_epoch * batch_size * oversample_foreground_percent patches must contain LA
 
 ## Results
+A case with median performance in terms of Dice scores in the challenge dataset.
+Green lines: prediction
+Red lines: groundtruth
+Yellow: slice index
 <img align="left" width="346" height="247" src="/results/P20.gif">      
-%<img align="left" width="346" height="247" src="/results/P34.gif">
+
