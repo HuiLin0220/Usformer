@@ -37,5 +37,5 @@ Please cite the following papers when using Usformer:
 -oversample_foreground_percent of patches must contain LA
 -num_iterations_per_epoch * batch_size * oversample_foreground_percent patches must contain LA
 
-
-<img align="left" width="346" height="247" src="/results/P20.gif">XXX
+## Results
+<img align="left" width="346" height="247" src="/results/P20.gif">      <img align="left" width="346" height="247" src="/results/P34.gif">
