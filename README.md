@@ -39,6 +39,7 @@ Please cite the following papers when using Usformer:
 
 ## Results
 <img align="left" width="346" height="247" src="/results/P20.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
+
 Green lines: prediction
 
 Red lines: groundtruth
