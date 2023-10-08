@@ -38,4 +38,4 @@ Please cite the following papers when using Usformer:
 -num_iterations_per_epoch * batch_size * oversample_foreground_percent patches must contain LA
 
 
-<img align="left" width="170" height="170" src="https://github.com/Huilin0220/XX.gif">
+<img align="left" width="170" height="170" src="https://github.com/Huilin0220/XX.gif">XXX
