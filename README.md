@@ -7,8 +7,6 @@ Hui Lin, Santiago Lopez Tapia, Florian Schiffers, Yunan Wu, Huili Yang, Nikolay 
 
 ## Instructions
 - [Installation instructions]  
-      Refer to nnU-Net's [Installation instructions](documentation/installation_instructions.md).
-
       git clone git clone https://github.com/HuiLin0220/Usformer.git
       cd Usformer
       pip install -e.
