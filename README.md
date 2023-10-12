@@ -38,7 +38,7 @@ Please cite the following papers when using Usformer:
 -num_iterations_per_epoch * batch_size * oversample_foreground_percent patches must contain LA
 
 ## Results
-<img align="left" width="346" height="247" src="/results/P20.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
+<img align="left" width="311" height="222" src="/results/P20.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
 
 Green lines: prediction
 
