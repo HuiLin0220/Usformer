@@ -1,7 +1,7 @@
 # Usformer
 A new architecture, Usformer, based on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework for LA segmentation.
 
-Please cite the following papers when using Usformer:
+## References and Acknowledgements:
 
     [1] Hui Lin, Santiago Lopez Tapia, Florian Schiffers, Yunan Wu, Huili Yang, Nikolay Iakovlev, Bradley D. Allen, Ryan Avery, Daniel C. Lee, Daniel Kim, Aggelos K. Katsaggelos. 
     Usformer: A Light Neural Network for Left Atrium Segmentation of 3D LGE MRI. EUSIPCO, 2023.  (waiting to be online)
