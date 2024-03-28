@@ -3,7 +3,16 @@ A new architecture, Usformer, based on the [nnU-Net](https://github.com/MIC-DKFZ
 
 ## References and Acknowledgements:
 
-Hui Lin, Santiago Lopez Tapia, Florian Schiffers, Yunan Wu, Huili Yang, Nikolay Iakovlev, Bradley D. Allen, Ryan Avery, Daniel C. Lee, Daniel Kim, Aggelos K. Katsaggelos. Usformer: A Light Neural Network for Left Atrium Segmentation of 3D LGE MRI. EUSIPCO, 2023.  (waiting to be online)
+@article{Usformer,
+title = {Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI},
+journal = {Heliyon},
+pages = {e28539},
+year = {2024},
+issn = {2405-8440},
+doi = {https://doi.org/10.1016/j.heliyon.2024.e28539},
+url = {https://www.sciencedirect.com/science/article/pii/S2405844024045705},
+author = {Hui Lin and Santiago López-Tapia and Florian Schiffers and Yunan Wu and Suvai Gunasekaran and Julia Hwang and Dima Bishara and Eugene Kholmovski and Mohammed Elbaz and Rod S. Passman and Daniel Kim and Aggelos K. Katsaggelos},
+}
 
 ## Instructions
 - [Installation instructions]  
