@@ -8,8 +8,11 @@ Code for two papers:
 
 
 ## Instructions
-- [Installation instructions]  
-        git clone git clone https://github.com/HuiLin0220/Usformer.git
+- [Installation instructions]
+      git clone https://github.com/HuiLin0220/StenUNet.git
+      cd StenUNet
+      pip install  -r ./requirements.txt
+        git clone https://github.com/HuiLin0220/Usformer.git
         cd Usformer
         pip install -e.
 - [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py) A new architecture, Usformer, is created here.
