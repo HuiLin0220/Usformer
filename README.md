@@ -24,7 +24,7 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
 - [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py)  Usformer is defined here.
 
 ## Median Performance
-<img align="left" width="252" height="180" src="/results/P20.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
+<img align="left" width="252" height="180" src="/results/challenge_dataset.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
 
 Green lines: prediction
 
