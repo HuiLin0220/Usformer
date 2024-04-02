@@ -1,11 +1,7 @@
 # Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI
 Code for two papers: 
 (1) 
-(2) Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI
-
-
-Usformer is developed based on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework.
-
+(2) Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI.
 
 
 ## Dataset
