@@ -2,7 +2,8 @@
 Code for two papers: 
 (1) 
 (2) Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI.
-
+[Video](https://www.youtube.com/watch?v=4Mu5rgfUwoE)
+[Slides](https://drive.google.com/file/d/1pWzuMKeXzwozWLsFPUuOCRv1JYvT-KXy/view)
 
 ## Dataset
 
