@@ -10,9 +10,6 @@ Code for two papers:
 ## Instructions
 - [Installation instructions]
 
-        git clone https://github.com/HuiLin0220/StenUNet.git
-      cd StenUNet
-      pip install  -r ./requirements.txt
         git clone https://github.com/HuiLin0220/Usformer.git
         cd Usformer
         pip install -e.
