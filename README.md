@@ -33,10 +33,10 @@ Median segmentation performance achieved by Usformer
 <img align="left" width="252" height="180" src="/results/P20.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
 
 Green lines: prediction
-
 Red lines: groundtruth
+Yellow: slice index
 
-Median segmentation performance achieved by Usformer
+Videos for median segmentation performance achieved by Usformer
 
 [challenge dataset](https://ars.els-cdn.com/content/image/1-s2.0-S2405844024045705-mmc1.mp4)
 [NU dataset](https://ars.els-cdn.com/content/image/1-s2.0-S2405844024045705-mmc2.mp4)
@@ -44,7 +44,7 @@ Median segmentation performance achieved by Usformer
 ## References and Acknowledgements:
 Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. The  Left Atrium Segmentation project is funded by
 
-Yellow: slice index
+
 
 
 
