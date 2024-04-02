@@ -20,9 +20,6 @@ Median segmentation performance achieved by Usformer
         cd Usformer
         pip install -e.
 - [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py)  Usformer is defined here.
-## Oversampling
--oversample_foreground_percent of patches must contain LA
--num_iterations_per_epoch * batch_size * oversample_foreground_percent patches must contain LA
 
 ## Example Results
 <img align="left" width="252" height="180" src="/results/P20.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
