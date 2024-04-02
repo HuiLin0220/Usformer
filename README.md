@@ -6,19 +6,8 @@ Code for two papers:
 
 Usformer is developed based on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework.
 
-## References and Acknowledgements:
-Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. The  Left Atrium Segmentation project is funded by
 
-      @article{Usformer,
-      title = {Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI},
-      journal = {Heliyon},
-      pages = {e28539},
-      year = {2024},
-      issn = {2405-8440},
-      doi = {https://doi.org/10.1016/j.heliyon.2024.e28539},
-      url = {https://www.sciencedirect.com/science/article/pii/S2405844024045705},
-      author = {Hui Lin and Santiago López-Tapia and Florian Schiffers and Yunan Wu and Suvai Gunasekaran and Julia Hwang and Dima Bishara and Eugene Kholmovski and Mohammed             Elbaz and Rod S. Passman and Daniel Kim and Aggelos K. Katsaggelos},
-      }
+
 ## Dataset
 
 
@@ -43,6 +32,9 @@ Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) frame
 Green lines: prediction
 
 Red lines: groundtruth
+
+## References and Acknowledgements:
+Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. The  Left Atrium Segmentation project is funded by
 
 Yellow: slice index
 
