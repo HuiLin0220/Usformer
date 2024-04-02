@@ -36,12 +36,5 @@ More results in two datasets:
 
 ## References and Acknowledgements:
 Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. The  Left Atrium Segmentation project is funded by
-
-
-
-
-
-
-## To-do lists
      
 
