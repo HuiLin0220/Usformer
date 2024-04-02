@@ -30,6 +30,8 @@ Red lines: groundtruth
 
 Yellow: slice index
 
+
+
 ## Videos for median segmentation performance achieved by Usformer
 
 [challenge dataset](https://ars.els-cdn.com/content/image/1-s2.0-S2405844024045705-mmc1.mp4)
