@@ -11,8 +11,10 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
 
 
 ## Dataset
-Median segmentation performance achieved by Usformer
-[challenge dataset.](https://ars.els-cdn.com/content/image/1-s2.0-S2405844024045705-mmc1.mp4)
+
+[challenge dataset.]([https://ars.els-cdn.com/content/image/1-s2.0-S2405844024045705-mmc1.mp4](https://www.cardiacatlas.org/atriaseg2018-challenge/atria-seg-data/)
+
+
 ## Instructions
 - [Installation instructions]
 
