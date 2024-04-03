@@ -22,6 +22,8 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
         cd Usformer
         pip install -e.
 - [Architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) is defined here.
+- [Training]
+- [Test]
 
 ## Median Performance
 <img align="left" width="252" height="180" src="/results/challenge_dataset.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
