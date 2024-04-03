@@ -12,7 +12,7 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
 
 ## Dataset
 
-[To obtain the challenge dataset](https://www.cardiacatlas.org/atriaseg2018-challenge/atria-seg-data/)
+[To obtain the 2018 Atria Segmentation challenge dataset](https://www.cardiacatlas.org/atriaseg2018-challenge/atria-seg-data/)
 
 
 ## Instructions
