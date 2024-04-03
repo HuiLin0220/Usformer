@@ -16,7 +16,7 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
 
 
 ## Instructions
-- [Installation instructions]
+- [Installation]
 
         git clone https://github.com/HuiLin0220/Usformer.git
         cd Usformer
