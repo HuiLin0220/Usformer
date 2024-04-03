@@ -21,7 +21,7 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
         git clone https://github.com/HuiLin0220/Usformer.git
         cd Usformer
         pip install -e.
-- [Usformer](nnunetv2/dynamic_network_architectures/architectures/unet.py)  Usformer is defined here.
+- [Architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) is defined here.
 
 ## Median Performance
 <img align="left" width="252" height="180" src="/results/challenge_dataset.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
