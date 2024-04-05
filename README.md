@@ -26,7 +26,7 @@ pip install -e.
   
 - [Test]
   Challenge dataset's configuration plan:
-  weight()
+  [weight](https://drive.google.com/file/d/1CS6mGbT85mCE4MF28Guiic_G6d1r6oe1/view?usp=sharing)
 
 ## Median Performance
 <img align="left" width="252" height="180" src="/results/challenge_dataset.gif"> A case with median performance in terms of Dice scores in the challenge dataset.
