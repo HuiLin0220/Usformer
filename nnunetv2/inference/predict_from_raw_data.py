@@ -128,11 +128,6 @@ def predict_from_raw_data(list_of_lists_or_source_folder: Union[str, List[List[s
                           num_parts: int = 1,
                           part_id: int = 0,
                           device: torch.device = torch.device('cuda')):
-    print("\n#######################################################################\nPlease cite the following paper "
-          "when using nnU-Net:\n"
-          "Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). "
-          "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. "
-          "Nature methods, 18(2), 203-211.\n#######################################################################\n")
 
     if device.type == 'cuda':
         device = torch.device(type='cuda', index=0)  # set the desired GPU with CUDA_VISIBLE_DEVICES!
@@ -227,8 +222,9 @@ def predict_from_raw_data(list_of_lists_or_source_folder: Union[str, List[List[s
     # go go go
     # spawn allows the use of GPU in the background process in case somebody wants to do this. Not recommended. Trust me.
     # export_pool = multiprocessing.get_context('spawn').Pool(num_processes_segmentation_export)
-    # export_pool = multiprocessing.Pool(num_processes_segmentation_export)
-    with multiprocessing.get_context("spawn").Pool(num_processes_segmentation_export) as export_pool:
+    export_pool = multiprocessing.Pool(num_processes_segmentation_export)
+    #with multiprocessing.get_context("spawn").Pool(num_processes_segmentation_export) as export_pool:
+    if True:
         network = network.to(device)
 
         r = []
@@ -248,10 +244,10 @@ def predict_from_raw_data(list_of_lists_or_source_folder: Union[str, List[List[s
 
                 # let's not get into a runaway situation where the GPU predicts so fast that the disk has to b swamped with
                 # npy files
-                proceed = not check_workers_busy(export_pool, r, allowed_num_queued=len(export_pool._pool))
-                while not proceed:
-                    sleep(1)
-                    proceed = not check_workers_busy(export_pool, r, allowed_num_queued=len(export_pool._pool))
+                #proceed = not check_workers_busy(export_pool, r, allowed_num_queued=len(export_pool._pool))
+                #while not proceed:
+                    #sleep(1)
+                    #proceed = not check_workers_busy(export_pool, r, allowed_num_queued=len(export_pool._pool))
 
                 # we have some code duplication here but this allows us to run with perform_everything_on_gpu=True as
                 # default and not have the entire program crash in case of GPU out of memory. Neat. That should make
