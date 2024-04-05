@@ -25,7 +25,7 @@ pip install -e.
 - Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py), [plan](dataset_model_config/plan.json), and weight ([Google drive](https://drive.google.com/file/d/1CS6mGbT85mCE4MF28Guiic_G6d1r6oe1/view?usp=sharing)).
   
 - [Test]
-  Challenge dataset's [configuration plan]dataset_model_config/dataset.json)
+  Challenge dataset's [configuration plan](dataset_model_config/dataset.json)
 ```bash
   python ./test.py
 ```
