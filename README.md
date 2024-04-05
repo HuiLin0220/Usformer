@@ -21,7 +21,7 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
         git clone https://github.com/HuiLin0220/Usformer.git
         cd Usformer
         pip install -e.
-- Usformer's [Architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](network_plan/Usformer_5M.json).
+- Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](network_plan/Usformer_5M.json).
 - [Training]
 - [Test]
 
