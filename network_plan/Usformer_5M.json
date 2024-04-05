@@ -48,7 +48,7 @@
             "use_mask_for_norm": [
                 true
             ],
-            "UNet_class_name": "UNetrasformer3D",
+            "UNet_class_name": "Usformer",
             "UNet_base_num_features": 16,
             "n_conv_per_stage_encoder": [
                 2,
