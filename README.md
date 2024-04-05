@@ -22,7 +22,7 @@ git clone https://github.com/HuiLin0220/Usformer.git
 cd Usformer
 pip install -e.
 ```
-- Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](network_plan/Usformer_5M.json).
+- Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](dataset_model_config/plan.json).
   
 - [Test]
   Challenge dataset's configuration plan:
