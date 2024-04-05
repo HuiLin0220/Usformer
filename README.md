@@ -26,9 +26,9 @@ pip install -e.
   Locate the `.bashrc` file in your home folder and add the following lines to the bottom:
 
 ```bash
-export nnUNet_raw="/media/fabian/nnUNet_raw"
-export nnUNet_preprocessed="/media/fabian/nnUNet_preprocessed"
-export nnUNet_results="/media/fabian/nnUNet_results"
+export nnUNet_raw= path_to_"/nnUNet_raw"
+export nnUNet_preprocessed= path_to_"/nnUNet_preprocessed"
+export nnUNet_results= path_to_"/nnUNet_results"
 ```
 - Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](network_plan/Usformer_5M.json).
 - [Training]
