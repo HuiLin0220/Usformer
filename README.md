@@ -21,8 +21,17 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
         git clone https://github.com/HuiLin0220/Usformer.git
         cd Usformer
         pip install -e.
+- [Set environment variables]
+  Locate the `.bashrc` file in your home folder and add the following lines to the bottom:
+
+```bash
+export nnUNet_raw="/media/fabian/nnUNet_raw"
+export nnUNet_preprocessed="/media/fabian/nnUNet_preprocessed"
+export nnUNet_results="/media/fabian/nnUNet_results"
 - Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](network_plan/Usformer_5M.json).
 - [Training]
+  Challenge dataset's configuration plan:
+  weight
 - [Test]
 
 ## Median Performance
