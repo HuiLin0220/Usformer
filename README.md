@@ -28,6 +28,7 @@ Mode details are presented in the following papers, [Video](https://www.youtube.
 export nnUNet_raw="/media/fabian/nnUNet_raw"
 export nnUNet_preprocessed="/media/fabian/nnUNet_preprocessed"
 export nnUNet_results="/media/fabian/nnUNet_results"
+
 - Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py) and [plan](network_plan/Usformer_5M.json).
 - [Training]
   Challenge dataset's configuration plan:
