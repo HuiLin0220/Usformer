@@ -46,6 +46,6 @@ More results in two datasets:
 [NU dataset](https://ars.els-cdn.com/content/image/1-s2.0-S2405844024045705-mmc2.mp4)
 
 ## References and Acknowledgements:
-Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. The  Left Atrium Segmentation project is funded by
+Usformer is developed on the [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. The  Left Atrium Segmentation project is funded by the American Heart Association and the National Institutes of Health. Any questions, please email huilin@u.northwestern.edu
      
 
