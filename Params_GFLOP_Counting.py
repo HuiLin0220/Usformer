@@ -8,13 +8,13 @@ from batchgenerators.utilities.file_and_folder_operations import load_json
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-plan_path = 'path_to_network_plan_file'#"/home/hln0895/Usformer/network_plan/Usformer_5M.json"
+plan_path = 'path_to_network_plan_file'#"/home/hln0895/Usformer/dataset_model_config/plan.json"
 plans = PlansManager(plan_path)
 
 configuration = '3d_fullres'
 configuration_manager = plans.get_configuration(configuration)
 
-dataset_json_path = 'path_to_dataset_json_file'#"/home/hln0895/Usformer/nnUNet_raw/Dataset666_LA/dataset.json"
+dataset_json_path = 'path_to_dataset_json_file'#"/home/hln0895/Usformer/dataset_model_config/dataset.json"
 dataset_json = load_json(dataset_json_path)
 
 model = get_network_from_plans(plans, dataset_json, configuration_manager,
