@@ -26,10 +26,6 @@ If you find our work is useful in your research, please consider citing:
 
 
 
-
-
-
-
 ## Dataset
 
 [To obtain the 2018 Atria Segmentation challenge dataset](https://www.cardiacatlas.org/atriaseg2018-challenge/atria-seg-data/)
