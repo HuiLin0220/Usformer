@@ -2,10 +2,25 @@
 More details are presented in the following papers, [Video](https://www.youtube.com/watch?v=4Mu5rgfUwoE), and [Slides](https://drive.google.com/file/d/1pWzuMKeXzwozWLsFPUuOCRv1JYvT-KXy/view): 
 
 If you find our work is useful in your research, please consider citing:
+
 (1) [Usformer: A Light Neural Network for Left Atrium Segmentation of 3D LGE MRI](https://ieeexplore.ieee.org/abstract/document/10289839)
-
+```bash
+@article{lin2024usformer,
+  title={Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI},
+  author={Lin, Hui and L{\'o}pez-Tapia, Santiago and Schiffers, Florian and Wu, Yunan and Gunasekaran, Suvai and Hwang, Julia and Bishara, Dima and Kholmovski, Eugene and Elbaz, Mohammed and Passman, Rod S and others},
+  journal={Heliyon},
+  publisher={Elsevier}
+}
+```
 (2) [Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI](https://doi.org/10.1016/j.heliyon.2024.e28539)
-
+```bash
+@article{lin2024usformer,
+  title={Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI},
+  author={Lin, Hui and L{\'o}pez-Tapia, Santiago and Schiffers, Florian and Wu, Yunan and Gunasekaran, Suvai and Hwang, Julia and Bishara, Dima and Kholmovski, Eugene and Elbaz, Mohammed and Passman, Rod S and others},
+  journal={Heliyon},
+  publisher={Elsevier}
+}
+```
 
 
 
