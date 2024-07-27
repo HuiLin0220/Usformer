@@ -2,6 +2,7 @@
 # Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI
 [![paper](https://img.shields.io/badge/arXiv-2311.12437-blue)](https://doi.org/10.1016/j.heliyon.2024.e28539)
  [![cite](https://img.shields.io/badge/cite-BibTex-yellow)](https://scholar.googleusercontent.com/scholar.bib?q=info:MqXrnsiRsFcJ:scholar.google.com/&output=citation&scisdr=ClEVFUEEEL3snBU4tsM:AFWwaeYAAAAAZqU-rsMC6F0E_6wELePdP-1rjCA&scisig=AFWwaeYAAAAAZqU-rhqHAguH34TMabufIw5T5dA&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1) [![video](https://img.shields.io/badge/video-YouTube-red)](https://www.youtube.com/watch?v=4Mu5rgfUwoE)
+
 More details are presented in the following papers, [Video](https://www.youtube.com/watch?v=4Mu5rgfUwoE), and [Slides](https://drive.google.com/file/d/1pWzuMKeXzwozWLsFPUuOCRv1JYvT-KXy/view): 
 
 If you find our work is useful in your research, please consider citing:
