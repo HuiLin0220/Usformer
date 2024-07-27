@@ -1,4 +1,9 @@
-[![arXiv]](https://doi.org/10.1016/j.heliyon.2024.e28539) [![video](https://img.shields.io/badge/paper-CVPR2022-green)](https://www.youtube.com/watch?v=4Mu5rgfUwoE)
+[![arXiv](https://img.shields.io/badge/arXiv-2311.12437-blue)]https://doi.org/10.1016/j.heliyon.2024.e28539)
+ [![cite](https://img.shields.io/badge/cite-BibTex-yellow)]()
+[![website](https://img.shields.io/badge/Challenge%20website-50d13d)](https://arcade.grand-challenge.org/)
+
+
+[![arXiv]](https://doi.org/10.1016/j.heliyon.2024.e28539) [![video](https://img.shields.io/badge/video-YouTube-red)](https://www.youtube.com/watch?v=4Mu5rgfUwoE)
 # Usformer: A Small Network for Left Atrium Segmentation of 3D LGE MRI
 More details are presented in the following papers, [Video](https://www.youtube.com/watch?v=4Mu5rgfUwoE), and [Slides](https://drive.google.com/file/d/1pWzuMKeXzwozWLsFPUuOCRv1JYvT-KXy/view): 
 
