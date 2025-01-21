@@ -42,7 +42,7 @@ git clone https://github.com/HuiLin0220/Usformer.git
 cd Usformer
 pip install -e.
 ```
-- Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py), [plan](dataset_model_config/plan.json), and weight ([Google drive](https://drive.google.com/file/d/1CS6mGbT85mCE4MF28Guiic_G6d1r6oe1/view?usp=sharing)).
+- Usformer's [architecture](nnunetv2/dynamic_network_architectures/architectures/unet.py), [plan](dataset_model_config/plans.json), and weight ([Google drive](https://drive.google.com/file/d/1CS6mGbT85mCE4MF28Guiic_G6d1r6oe1/view?usp=sharing)).
   
 - [Test]
   
